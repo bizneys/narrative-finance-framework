@@ -65,7 +65,7 @@ An asset's daily log return ($r_{i,t}$) is decomposed into narrative-driven retu
 $$r_{i,t} = \underbrace{\sum_{k \in \{\text{SC, AH, H, F}\}} \beta_{i,k} \cdot f_{k,t}}_{\text{Narrative Return}} + \underbrace{(\alpha_i + e_{i,t})}_{\text{Idiosyncratic Return}}$$
 
 **Continuous Cumulative Compounding (Price Decomposition)**  
-Asset price is expressed as a multiplicative combination of Narrative Price and Idiosyncratic Price ($\text{Price}_{\text{Obs}} = \text{Price}_{\text{Narrative}} \times \text{Price}_{\text{Idio}}$). Reconstructed via continuous compounding from inception ($t_0$):
+Asset price is expressed as a multiplicative combination of Narrative Price and Idiosyncratic Price ($P_{\text{Obs}} = P_{\text{Narrative}} \times P_{\text{Idio}}$). Reconstructed via continuous compounding from inception ($t_0$):
 
 $$\ln P_{\text{Obs}, t} = \ln P_{t_0} + \sum_{\tau=t_0+1}^{t} r_{i,\tau}$$
 
